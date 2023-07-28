@@ -40,8 +40,6 @@ Students Will Be Able To:
 *   Touch an `index.html` and open the directory in vscode `code .`
 *   in the `index.html` use the `! [tab]` to create the HTML boilerplate.
 *   Make a `js` folder and touch a `js/script.js` file.
-
-### [](#setup-1)Setup
 *   Add a `<script>` tag to include `script.js` in the `<head>`:
     
         <head>
@@ -51,8 +49,6 @@ Students Will Be Able To:
         </head>
     
 *   The `defer` attribute ensures the DOM is ready before the script executes.
-
-### [](#setup-2)Setup
 *   Finally, let's add an `<h1>` inside of the `<body>` as follows:
     
         ...
@@ -101,14 +97,10 @@ Students Will Be Able To:
 *   If you'd like to be able to explore the properties of element, use `console.dir()` instead.
 *   But what if the element doesn't have an id...
 
-### [](#select-a-single-element-using-abrcss-selector)Select a single element using a  
-CSS selector
+### [](#select-a-single-element-using-abrcss-selector)Select a single element using a CSS selector
 *   The solution is to use the `querySelector(selector)` method that is available on the `document` object (and elements themselves).
 *   The _selector_ argument is a string that follows the rules of regular CSS3 selectors.
 *   The CSS3 selector language offers amazing power to target elements for selection!
-
-### [](#select-a-single-element-using-abrcss-selector-1)Select a single element using a  
-CSS selector
 *   Knowing that the _selector_ provided to `querySelector(selector)` follows the rules of CSS3 selectors, **how could we modify our code to select our `<h1>` element by its id?**
 *   If the CSS selector provided to `querySelector()` matches multiple elements, it returns the **"first"** matching element.
 *   If no matching node is found, `null` is returned.
@@ -124,12 +116,8 @@ CSS selector
 *   By inspecting the properties of a DOM element in the console, we will find a couple of properties that we can use to read and set its content:
     *   **`innerHTML`** - Used to retrieve/set content as HTML
     *   **`textContent`** - Used to retrieve/set content as plain text
-
-### [](#change-the-content-of-an-element-1)Change the content of an element
 *   Let's check out changing the content of the `<p>` element by assigning the string **`Comments for <strong>Today</strong>`** first to `textContent`, then to `innerHTML`.
 *   So, as you saw, if you want to include HTML in the content, use `innerHTML`.
-
-### [](#change-the-content-of-an-element-2)Change the content of an element
 *   The power of `innerHTML` may not be obvious, but consider the string can be as complex as you want - containing multiple elements with attributes, etc.
 *   However, using `textContent` is more efficient if just setting text.
 
@@ -140,7 +128,6 @@ CSS selector
 *   **What naming convention is used for CSS properties in CSS?**
 *   **Why is it different?**
 
-### [](#change-the-style-of-an-element-1)Change the style of an element
 *   This is how we can set the `text-align` CSS property of our title:
     
     let titleEl = document.getElementById('title');
