@@ -35,7 +35,7 @@ Students Will Be Able To:
     *   Change the style properties of elements
 
 ### [](#setup)Setup
-*   Move to today's directory `software_classwork/unit_1`.
+*   Move to a new directory
 *   Create a folder named `dom-practice` and `cd` into it.
 *   Touch an `index.html` and open the directory in vscode `code .`
 *   in the `index.html` use the `! [tab]` to create the HTML boilerplate.
@@ -143,8 +143,8 @@ CSS selector
 ### [](#change-the-style-of-an-element-1)Change the style of an element
 *   This is how we can set the `text-align` CSS property of our title:
     
-        let titleEl = document.getElementById('title');
-        titleEl.style.textAlign = 'center';
+    let titleEl = document.getElementById('title');
+    titleEl.style.textAlign = 'center';
     
 *   💪 **Your turn:** Change the `color` of the `<p>` element to a color of your choosing.
 
@@ -154,7 +154,7 @@ CSS selector
     *   `getAttribute(name)`
     *   `setAttribute(name, value)`
     *   `hasAttribute(name)`
-    *   
+
 ### [](#attributes-of-an-elementbr-practice-5-mins)Attributes of an element  
 💪 Practice (5 mins)
 *   Add an `<a>` tag to `index.html` with content of "Visit Google" but **without an `href` attribute**.
